@@ -1,5 +1,3 @@
-[![unifi-cam-proxy Discord](https://img.shields.io/discord/937237037466124330?color=0559C9&label=Discord&logo=discord&logoColor=%23FFFFFF&style=for-the-badge)](https://discord.gg/Bxk9uGT6MW)
-
 # UniFi Camera Proxy
 
 ## About
@@ -277,9 +275,3 @@ Key sections:
 - **0x0220–0x0280**: `onClockSync` metadata (`streamClock`, `wallClock`).
 - **0x0290–0x02FF**: AVC sequence header (`avcC`, SPS `67 4D 40 1F …`, PPS `68 EE 38 80`).
 - **0x0300+**: Start of keyframe data (H.264 IDR NALUs).
-
----
-
-## Donations
-
-If you would like to make a donation to support development, please use [Github Sponsors](https://github.com/sponsors/keshavdv).
