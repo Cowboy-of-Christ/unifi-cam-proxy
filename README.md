@@ -64,6 +64,11 @@ Replace lan0 with your actual network interface name (e.g., eth0, enp3s0, etc.).
 
 See `docs/wss_manager.md` for the WSS manager overview and message-handling plan.
 
+Useful resources:
+https://web.archive.org/web/20260309230903/https://tamarack.cloud/blog/reverse-engineering-unifi-inform-protocol
+https://jrjparks.github.io/unofficial-unifi-guide/adoption.html
+https://github.com/amd989/unifi-gateway
+
 ## UniFi Protect Discovery & Adoption Process
 
 The rewrite mirrors the real UniFi Protect handshake in five stages. Each stage is handled by a dedicated component inside `Unifi/entry.py`.
